@@ -5,8 +5,10 @@ import img3 from "/public/image/b2.jpg";
 export default function Home() {
   return (
     <>
-      <Image src={img2} alt="Vercel Logo" width={500} height={340} priority />
-      <Image src={img3} alt="Vercel Logo" width={500} height={340} priority />
+      <div className="flex">
+        <Image src={img2} alt="Vercel Logo" width={500} height={340} priority />
+        <Image src={img3} alt="Vercel Logo" width={500} height={340} priority />
+      </div>
     </>
   );
 }
